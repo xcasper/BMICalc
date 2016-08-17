@@ -11,7 +11,10 @@ namespace BMICalc_Android
     [Activity(Label = "BMICalc_Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
+        EditText weightEditText, heightEditText;
+        TextView bmiTextView;
+        Button calculateButton;
+        float bmi = 20.0f;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -22,9 +25,21 @@ namespace BMICalc_Android
 
             // Get our button from the layout resource,
             // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            weightEditText = FindViewById<EditText>(BMICalc_Android.Resource.Id.weightEditText);
+            heightEditText = FindViewById<EditText>(BMICalc_Android.Resource.Id.heightEditText);
+            bmiTextView = FindViewById<TextView>(BMICalc_Android.Resource.Id.bmiTextView);
+            calculateButton = FindViewById<Button>(BMICalc_Android.Resource.Id.calculateButton);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            calculateButton.Click += CalculateButton_Click;
+        }
+
+        private void CalculateButton_Click(object sender, EventArgs e)
+        {
+            float weight = float.Parse(weightEditText.Text);
+            float height = float.Parse(heightEditText.Text);
+
+            bmi = (weight / (height * height));
+            bmiTextView.Text = bmi.ToString();
         }
     }
 }

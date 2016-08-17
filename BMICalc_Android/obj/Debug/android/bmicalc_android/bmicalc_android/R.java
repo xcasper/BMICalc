@@ -14,7 +14,12 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int MyButton=0x7f050000;
+        public static final int bmiTextView=0x7f050005;
+        public static final int calculateButton=0x7f050004;
+        public static final int heightEditText=0x7f050003;
+        public static final int heightTextView=0x7f050002;
+        public static final int weightEditText=0x7f050001;
+        public static final int weightTextView=0x7f050000;
     }
     public static final class layout {
         public static final int main=0x7f030000;
