@@ -34,5 +34,7 @@ C:\Users\cglec\OneDrive\Documents\GitHub\BMICalc_Android\BMICalc_Android\obj\Deb
 C:\Users\cglec\OneDrive\Documents\GitHub\BMICalc_Android\BMICalc_Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\cglec\OneDrive\Documents\GitHub\BMICalc_Android\BMICalc_Android\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\cglec\OneDrive\Documents\GitHub\BMICalc_Android\BMICalc_Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\cglec\OneDrive\Documents\GitHub\BMICalc_Android\BMICalc_Android\obj\Debug\BMICalc_Android.csprojResolveAssemblyReference.cache
+C:\Users\cglec\OneDrive\Documents\GitHub\BMICalc_Android\BMICalc_Android\obj\Debug\res\layout\bmidetails.xml
 C:\Users\cglec\OneDrive\Documents\GitHub\BMICalc_Android\BMICalc_Android\obj\Debug\BMICalc_Android.dll.mdb
 C:\Users\cglec\OneDrive\Documents\GitHub\BMICalc_Android\BMICalc_Android\bin\Debug\BMICalc_Android.dll.mdb

@@ -4,7 +4,8 @@
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="BMICalc_Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="BMICalc_Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="BMIDetailsActivity" android:name="md5c79b9c61dc060ab5e6a85c6f89bc8bf3.BMIDetailsActivity" />
     <activity android:icon="@drawable/icon" android:label="BMICalc_Android" android:name="md5c79b9c61dc060ab5e6a85c6f89bc8bf3.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
