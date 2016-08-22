@@ -20,7 +20,7 @@ namespace BMICalc_Android
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-
+            SetContentView(Resource.Layout.BMIDetails);
         }
     }
 }

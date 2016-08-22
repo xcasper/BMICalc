@@ -38,8 +38,8 @@ namespace BMICalc_Android
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
-            float weight = float.Parse(weightEditText.Text);
             float height = float.Parse(heightEditText.Text);
+            float weight = float.Parse(weightEditText.Text);
 
             bmi = (weight / (height * height));
             bmiTextView.Text = bmi.ToString();
