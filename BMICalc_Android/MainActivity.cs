@@ -48,6 +48,7 @@ namespace BMICalc_Android
         private void BmiDetailsButton_Click(object sender, EventArgs e)
         {
             var intent = new Intent(this, typeof(BMIDetailsActivity));
+            intent.PutExtra("bmi_value", bmi);
             StartActivity(intent);
         }
     }
